@@ -39,7 +39,7 @@ xhr.onload = function() {
       small.appendChild(document.createTextNode(diffDays + ' days ago'));
       small.classList.add("small");
 
-      var desc = document.createElement("p");
+      var desc = document.createElement("div");
       desc.innerHTML = post.content;
       desc.classList.add("content");
 
